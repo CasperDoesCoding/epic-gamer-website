@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--include stylesheet.css and script.js-->
+<link rel="stylesheet" href="stylesheet.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accounts</title>
+</head>
+<body>
+    <!--
+        list of accounts fetched with javascript labeled by region and account name
+    -->
+    <div id="accounts">
+        <h1>Waa Waa</h1>
+        <div id="accounts-list"></div>
+    </div>
+
+    <!--
+        form to add new account
+    -->
+    <div id="add-account">
+        <h1>Add Account</h1>
+        <form id="add-account-form">
+            <label for="account-name">Account Name</label>
+            <input type="text" id="account-name" name="account-name" required>
+            <label for="account-region">Account Region</label>
+            <select id="account-region" name="account-region" required>
+                <option value="test">test-1</option>
+                <option value="test2">test-2</option>
+            </select>
+            <input type="submit" value="Add Account">
+        </form>
+</html>
